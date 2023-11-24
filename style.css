@@ -27,7 +27,8 @@ body {
     top: calc(45% - 5px);
     /* transform: translate(-50%, -50%) scale(1); */
 }
-#top {position: absolute;
+#top {
+    position: absolute;
     left: 52%;
     top: 30%;
     transform: translate(-50%,-50%)
