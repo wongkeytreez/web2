@@ -28,6 +28,7 @@ body {
     /* transform: translate(-50%, -50%) scale(1); */
 }
 #top {
+    width:120vh;
     position: absolute;
     left: 52%;
     top: 30%;

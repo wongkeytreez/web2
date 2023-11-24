@@ -58,10 +58,10 @@ async function yes(){
     var nochoice = document.getElementById('choice1');
     var headingElement = nochoice.querySelector("p");
     
-    words = ["... ","‎wh- ","‎what? ","‎huh? ","‎you werent supposed to do that..."]
+    words = ["..."]
     headingElement.textContent = "";
   for(x=0;x<words.length;x++){
-
+await sleep(1200)
     wordsnow = words[x].split("")
     for(y=0;y<wordsnow.length;y++){
       await  sleep(70)
@@ -73,7 +73,7 @@ async function yes(){
    while(wordsnow.length<headingElement.textContent.length){await  sleep(70)
     headingElement.textContent =headingElement.textContent.slice( 1 )}
  
-   await sleep(1200)
+   
   }
-
+ window.location.href = "https://wongkeytreez.github.io/web1/";
 }
